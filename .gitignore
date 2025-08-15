@@ -1,0 +1,37 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+/storage/logs/*.log
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Cache
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# PHP
+*.tmp
+*.temp
