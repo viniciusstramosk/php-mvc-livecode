@@ -69,4 +69,9 @@ abstract class AbstractJob implements Job
     {
         $this->log($message, 'warning');
     }
+    
+    protected function success($message)
+    {
+        $this->log($message, 'success');
+    }
 }

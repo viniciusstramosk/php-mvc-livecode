@@ -64,7 +64,7 @@ class JobQueue
             "SELECT * FROM jobs 
              WHERE queue = :queue 
              AND status = 'pending' 
-             AND available_at <= NOW() 
+             AND available_at <= datetime('now') 
              ORDER BY created_at ASC 
              LIMIT 1",
             ['queue' => $queue]
